@@ -15,6 +15,35 @@
   - `impossible`：对于基本上不可能完全删除你的帐户的网站，即使你与他们联系；
 - `notes`：(可选）当鼠标悬停在该服务上时，将显示注释。注释可能包含你删除帐户可能需要的其他信息（例如Skype）或删除帐户（例如iTunes）的后果。
 - `email`：(可选）如果你必须向公司发送电子邮件以注销你的帐户，请在此处添加电子邮件地址。
+- `domains`: (可选) 由 [Chrome extension](https://github.com/MikeRogers0/justdelete.me-chrome-extension) 使用。
+
+举例：
+
+```json
+[
+    {
+        "name": "前程无忧",
+        "url": "https://login.51job.com/closeaccount.php",
+        "difficulty": "easy",
+        "domains": [
+            "51job.com"
+        ]
+    },
+    {
+        "name": "淘宝",
+        "url": "https://passport.taobao.com/ac/cancel_account.htm?fromSite=0",
+        "difficulty": "hard",
+        "notes": "需满足所有特定条件（http://service.taobao.com/support/knowledge-5839600.htm），才能联系客服注销",
+        "domains": [
+            "taobao.com"
+        ]
+    }
+]
+```
+
+### 本地测试
+
+运行 `gulp` 并查看 `docs` 下的文件。
 
 ## 协议
 
