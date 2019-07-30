@@ -8,8 +8,10 @@ script:
 - gulp
 deploy:
   skip_cleanup: true
-  provider: script
-  script: sh .travis/push.sh
+  provider: pages
+  local_dir: docs/
+  github_token: $GH_TOKEN
+  keep_history: true
   on:
     branch: master
 branches:
