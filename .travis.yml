@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 6.9.0
+- 10.14.2
 install:
 - npm install gulp@3.9.1
 - npm install
