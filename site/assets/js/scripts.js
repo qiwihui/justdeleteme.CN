@@ -73,7 +73,7 @@ $(function(){
 			$('.no-results').hide();
 		}
 		
-		var hash = document.location.hash.toLowerCase();
+		var hash = decodeURIComponent(document.location.hash.toLowerCase());
 		var term = hash.substr(1);
 		
 		var $sites = $('.sites section');
@@ -89,7 +89,7 @@ $(function(){
 		
 		// Insert the term into the field
 		// (sometimes this is missed if the hash is changed directly)
-		$('#search').val(window.location.hash.substr(1));
+		$('#search').val(term);
 	}
 	
 	// Update search results on page load (if there is a hash)
@@ -162,13 +162,13 @@ window.onload = function() {
 
     $('#search').focus();
 
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+    // (function(d, s, id) {
+    //   var js, fjs = d.getElementsByTagName(s)[0];
+    //   if (d.getElementById(id)) return;
+    //   js = d.createElement(s); js.id = id;
+    //   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+    //   fjs.parentNode.insertBefore(js, fjs);
+    // }(document, 'script', 'facebook-jssdk'));
 
     console.log('Welcome to justdelete.me. We currently have ' + $('.site-block').length + ' services listed.');
 };

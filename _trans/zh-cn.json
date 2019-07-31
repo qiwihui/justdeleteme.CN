@@ -6,7 +6,7 @@
 	"difficulty_medium": "一般",
 	"difficulty_hard": "困难",
 	"difficulty_impossible": "不可能",
-	"tagline": "Web服务帐号注销链接的目录.",
+	"tagline": "中国互联网帐号注销难易度指南",
 	"noinfo": "无可用信息",
 	"showinfo": "查看信息...",
 	"hideinfo": "收起信息...",
@@ -39,5 +39,7 @@
 	"sendmail": "发送 email",
 	"submit": "添加网站",
 	"popular": "热门",
-	"about": "关于"
+	"about": "关于",
+	"cannotfound": "没有找到你需要的?",
+	"helpus": "帮助 justdeleteme.CN 变得更好"
 }
