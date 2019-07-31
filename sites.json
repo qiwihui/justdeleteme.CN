@@ -15,5 +15,95 @@
         "domains": [
             "taobao.com"
         ]
+    },
+    {
+        "name": "豆瓣",
+        "url": "https://www.douban.com/accounts/suicide/",
+        "difficulty": "easy",
+        "domains": [
+            "douban.com",
+            "www.douban.com"
+        ]
+    },
+    {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/question/21452645",
+        "difficulty": "hard",
+        "notes": "需要满足特定条件才能向知乎客服申请注销",
+        "domains": [
+            "www.zhihu.com"
+        ]
+    },
+    {
+        "name": "简书",
+        "url": "https://www.jianshu.com/settings/misc",
+        "difficulty": "easy",
+        "domains": [
+            "www.jianshu.com"
+        ]
+    },
+    {
+        "name": "思否",
+        "url": "https://www.segmentfault.com",
+        "difficulty": "impossible",
+        "notes": "没有提供注销账户功能",
+        "domains": [
+            "www.segmentfault.com"
+        ]
+    },
+    {
+        "name": "小米",
+        "url": "https://account.xiaomi.com/pass/del",
+        "difficulty": "easy",
+        "domains": [
+            "www.xiaomi.com",
+            "account.xiaomi.com"
+        ]
+    },
+    {
+        "name": "360",
+        "url": "https://i.360.cn/profile/accountlock",
+        "difficulty": "easy",
+        "domains": [
+            "www.360.cn",
+            "i.360.cn"
+        ]
+    },
+    {
+        "name": "58同城",
+        "url": "http://my.58.com/pro/offaccount/",
+        "difficulty": "easy",
+        "notes": "官方帮助：https://help.58.com/help_pc/zhzx/index.html",
+        "domains": [
+            "my.58.com",
+            "www.58.com"
+        ]
+    },
+    {
+        "name": "领英",
+        "url": "https://www.linkedin.com/psettings/account-management/close-submit",
+        "difficulty": "easy",
+        "domains": [
+            "www.linkedin.com"
+        ]
+    },
+    {
+        "name": "少数派",
+        "url": "https://sspai.com",
+        "difficulty": "impossible",
+        "notes": "没有提供注销账户功能",
+        "domains": [
+            "sspai.com"
+        ]
+    },
+    {
+        "name": "阿里云",
+        "url": "https://account.console.aliyun.com/#/secure",
+        "difficulty": "easy",
+        "notes": "官方帮助：https://help.aliyun.com/document_detail/72606.html",
+        "domains": [
+            "aliyun.com",
+            "www.aliyun.com"
+        ]
     }
 ]
