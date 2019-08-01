@@ -13,7 +13,7 @@
         "difficulty": "hard",
         "notes": "需满足所有特定条件（http://service.taobao.com/support/knowledge-5839600.htm），才能联系客服注销",
         "domains": [
-            "taobao.com"
+            "www.taobao.com"
         ]
     },
     {
@@ -104,6 +104,64 @@
         "domains": [
             "aliyun.com",
             "www.aliyun.com"
+        ]
+    },
+    {
+        "name": "亚马逊中国",
+        "url": "https://www.amazon.cn/gp/help/customer/display.html?ie=UTF8&nodeId=201945400",
+        "difficulty": "hard",
+        "notes": "需要联系亚马逊客服，在客服的指导和帮助下完成注销",
+        "domains": [
+            "www.amazon.cn"
+        ]
+    },
+    {
+        "name": "京东",
+        "url": "https://aq.jd.com/process/userCancel?s=1&channel=2&type=2",
+        "difficulty": "medium",
+        "notes": "官方帮助：https://help.jd.com/user/issue/164-3691.html",
+        "domains": [
+            "www.jd.com",
+            "help.jd.com"
+        ]
+    },
+    {
+        "name": "支付宝",
+        "url": "https://memberprod.alipay.com/account/close/apply.htm",
+        "difficulty": "medium",
+        "notes": "官方帮助：https://cshall.alipay.com/lab/help_detail.htm?help_id=249348",
+        "domains": [
+            "cshall.alipay.com",
+            "www.alipay.com"
+        ]
+    },
+    {
+        "name": "当当",
+        "url": "http://help.dangdang.com/details/page251",
+        "difficulty": "hard",
+        "notes": "需要联系客服进行注销操作",
+        "domains": [
+            "www.dangdang.com",
+            "help.dangdang.com"
+        ]
+    },
+    {
+        "name": "拼多多",
+        "url": "http://help.dangdang.com/details/page251",
+        "difficulty": "impossible",
+        "notes": "没有提供注销账户功能",
+        "domains": [
+            "www.pinduoduo.com"
+        ]
+    },
+    {
+        "name": "一号店",
+        "url": "https://cms.yhd.com/cms/view.do?topicId=191",
+        "difficulty": "impossible",
+        "notes": "没有提供注销账户功能",
+        "domains": [
+            "www.yhd.com",
+            "cms.yhd.com"
         ]
     }
 ]
