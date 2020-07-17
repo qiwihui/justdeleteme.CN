@@ -5,7 +5,7 @@
     "gulp-data": "*",
     "gulp-rename": "*",
     "gulp-swig": "*",
-    "lodash": ">=4.17.13",
+    "lodash": ">=4.17.19",
     "lodash.template": ">=4.5.0"
   },
   "devDependencies": {
